@@ -1,0 +1,59 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.main {
+  width: 100vw;
+  height: 100vh;
+  background-color: #010101;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+
+button {
+  cursor: pointer;
+  outline: none;
+  border: none;
+  padding: 20px 50px;
+  border-radius: 25px;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.increase {
+  background-color: rgb(227, 255, 226);
+}
+
+.increase:hover {
+  background-color: rgb(194, 255, 198);
+}
+
+.decrease {
+  background-color: rgb(255, 226, 226);
+}
+
+.decrease:hover {
+  background-color: rgb(255, 194, 194);
+}
+
+.reset {
+  background-color: rgb(231, 226, 255);
+}
+
+.reset:hover {
+  background-color: rgb(206, 194, 255);
+}
+
+h1 {
+  font-size: 88px;
+  color: whitesmoke;
+  text-align: center;
+}
